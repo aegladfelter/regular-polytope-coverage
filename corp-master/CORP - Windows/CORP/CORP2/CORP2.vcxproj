@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{21C32E76-699F-41AB-B08E-981231B02446}</ProjectGuid>
+    <RootNamespace>CORP2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CORP\Algorithm\Algorithm.h" />
+    <ClInclude Include="..\CORP\Algorithm\AlgorithmRunner\AlgorithmRunner.h" />
+    <ClInclude Include="..\CORP\Algorithm\AlgorithmSelect\AlgorithmSelect.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticAlgorithm.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Crossover\Crossover.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Crossover\OnePointCrossover\OnePointCrossover.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\ColoringFitness\ColoringFitness.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\CoverPercentRatioFitness\CoverPercentRatioFitness.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\Fitness.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\GeneticOperator.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\InitGenotype.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\KindOfRandomInitGenotype\KindOfRandomInitGenotype.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\RandomInitGenotype.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Mutation\BitFlipMutation\BitFlipMutation.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Mutation\Mutation.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Purge\Purge.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Purge\RandomHalfPurge\RandomHalfPurge.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Chromosome\Chromsome.h" />
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Genotype.h" />
+    <ClInclude Include="..\CORP\Algorithm\NaiveAlgorithm\NaiveAlgorithm.h" />
+    <ClInclude Include="..\CORP\Algorithm\RandomSolutionAlgorithm\RandomSolutionAlgorithm.h" />
+    <ClInclude Include="..\CORP\Boolset\BoolSet.h" />
+    <ClInclude Include="..\CORP\Boolset\WeightedBoolSet.h" />
+    <ClInclude Include="..\CORP\Config\Config.h" />
+    <ClInclude Include="..\CORP\Cover\Cover.h" />
+    <ClInclude Include="..\CORP\InputParser\InputParser.h" />
+    <ClInclude Include="..\CORP\Logger\Logger.h" />
+    <ClInclude Include="..\CORP\Matrix\Matrix.hpp" />
+    <ClInclude Include="..\CORP\OptionContainer\OptionContainer.h" />
+    <ClInclude Include="..\CORP\SolutionGenorator.h" />
+    <ClInclude Include="..\CORP\Star\Star.h" />
+    <ClInclude Include="Executor.hpp" />
+    <ClInclude Include="Validator.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CORP\Algorithm\AlgorithmRunner\AlgorithmRunner.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\AlgorithmSelect\AlgorithmSelect.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticAlgorithm.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Crossover\OnePointCrossover\OnePointCrossover.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\ColoringFitness\ColoringFitness.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\CoverPercentRatioFitness\CoverPercentRatioFitness.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\KindOfRandomInitGenotype\KindOfRandomInitGenotype.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\RandomInitGenotype.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Mutation\BitFlipMutation\BitFlipMutation.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Purge\RandomHalfPurge\RandomHalfPurge.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Chromosome\Chromsome.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Genotype.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\NaiveAlgorithm\NaiveAlgorithm.cpp" />
+    <ClCompile Include="..\CORP\Algorithm\RandomSolutionAlgorithm\RandomSolutionAlgorithm.cpp" />
+    <ClCompile Include="..\CORP\Boolset\BoolSet.cpp" />
+    <ClCompile Include="..\CORP\Boolset\WeightedBoolSet.cpp" />
+    <ClCompile Include="..\CORP\Config\Config.cpp" />
+    <ClCompile Include="..\CORP\Cover\Cover.cpp" />
+    <ClCompile Include="..\CORP\InputParser\InputParser.cpp" />
+    <ClCompile Include="..\CORP\Logger\Logger.cpp" />
+    <ClCompile Include="..\CORP\main.cpp" />
+    <ClCompile Include="..\CORP\OptionContainer\OptionContainer.cpp" />
+    <ClCompile Include="..\CORP\Star\Star.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

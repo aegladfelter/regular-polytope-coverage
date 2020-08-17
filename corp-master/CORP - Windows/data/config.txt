@@ -1,0 +1,30 @@
+# the path to the file containing the adjacency matrix
+AdjacencyList = adjacency_list_120cell.txt
+
+#
+# Genetic Algorithm Settings
+#
+
+# the size of the genotype to use
+GENOTYPE_SIZE = 15
+
+# the number of mutations to apply to each generation
+STEP_SIZE = 1
+
+# the file to output solutions found to
+GA_SOLUTION_FILE = GA_solutions.txt
+
+# the file good solutions are found
+CHROMOSOME_FILE = chromosomes.txt
+
+# how many generations to wait before purging
+PURGE_DELAY = -1
+
+# output file for metrics
+METRIC_OUTPUT = metrics.txt
+
+# how often to write metrics to file
+SAMPLE_RATE = 500
+
+# how often we print genotype
+DISPLAY_GENOTYPE_DELAY = 500

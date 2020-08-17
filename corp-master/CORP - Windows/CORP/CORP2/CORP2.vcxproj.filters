@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GeneticAlgorithm">
+      <UniqueIdentifier>{f95b395f-5936-4cf2-bd78-45527bd7d25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeneticAlgorithm">
+      <UniqueIdentifier>{12f1ee54-70aa-4f82-83d9-1700a7e4d756}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CORP\Config\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Cover\Cover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Boolset\BoolSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Boolset\WeightedBoolSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\InputParser\InputParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\OptionContainer\OptionContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Matrix\Matrix.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\NaiveAlgorithm\NaiveAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Star\Star.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\Algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\AlgorithmRunner\AlgorithmRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\AlgorithmSelect\AlgorithmSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Executor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\RandomInitGenotype.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Chromosome\Chromsome.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Genotype.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\InitGenotype.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\GeneticOperator.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticAlgorithm.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Crossover\Crossover.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Mutation\Mutation.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Mutation\BitFlipMutation\BitFlipMutation.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Crossover\OnePointCrossover\OnePointCrossover.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\Fitness.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\CoverPercentRatioFitness\CoverPercentRatioFitness.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\SolutionGenorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\RandomSolutionAlgorithm\RandomSolutionAlgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Logger\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\ColoringFitness\ColoringFitness.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Purge\Purge.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Purge\RandomHalfPurge\RandomHalfPurge.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\KindOfRandomInitGenotype\KindOfRandomInitGenotype.h">
+      <Filter>Header Files\GeneticAlgorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CORP\OptionContainer\OptionContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\InputParser\InputParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Cover\Cover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Config\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Boolset\BoolSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Boolset\WeightedBoolSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Star\Star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\NaiveAlgorithm\NaiveAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\AlgorithmRunner\AlgorithmRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\AlgorithmSelect\AlgorithmSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Chromosome\Chromsome.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\Genotype\Genotype.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\RandomInitGenotype.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticAlgorithm.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Mutation\BitFlipMutation\BitFlipMutation.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Crossover\OnePointCrossover\OnePointCrossover.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\CoverPercentRatioFitness\CoverPercentRatioFitness.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\RandomSolutionAlgorithm\RandomSolutionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Logger\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Fitness\ColoringFitness\ColoringFitness.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\Purge\RandomHalfPurge\RandomHalfPurge.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CORP\Algorithm\GeneticAlgorithm\GeneticOperator\InitGenotype\RandomInitGenotype\KindOfRandomInitGenotype\KindOfRandomInitGenotype.cpp">
+      <Filter>Source Files\GeneticAlgorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
